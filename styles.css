@@ -99,11 +99,15 @@ ul{
  }
 
 @media (max-width: 690px) {
-  .outer-container, .monthly-subscription, .why-us, .top-outer-container {
-    align-content: normal;
+  .outer-container, .top-outer-container {
     height: auto;
   }
-  
+
+  .monthly-subscription, .why-us {
+    align-content: normal;
+    flex-basis: 100%;
+  }
+
   .bottom-outer-container{
     flex-direction: column;
   }
