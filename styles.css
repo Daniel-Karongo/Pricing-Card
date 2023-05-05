@@ -99,20 +99,19 @@ ul{
  }
 
 @media (max-width: 950px) {
-  .outer-container, .top-outer-container {
+  .outer-container, .top-outer-container, .bottom-outer-container {
     width: auto;
     height: auto;
   }
-
-  .monthly-subscription, .why-us {
-    align-content: flex-start;
-    flex-basis: 50%;
-  }
-
+  
   .bottom-outer-container{
     flex-direction: column;
   }
   
+  .monthly-subscription, .why-us {
+    flex-basis: 50%;
+  }
+
   body {
     padding: 7%;
     font-size: 1.5rem;
