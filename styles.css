@@ -27,11 +27,12 @@ body{
   height: 60%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: normal;
 }
 
 .monthly-subscription, .why-us{
   flex-basis: 50%;
-  align-items: normal;
 }
 
 .top-outer-container, .monthly-subscription, .why-us{
@@ -105,7 +106,7 @@ ul{
 
   .monthly-subscription, .why-us {
     align-content: normal;
-    flex-basis: 100%;
+    flex-basis: 50%;
   }
 
   .bottom-outer-container{
