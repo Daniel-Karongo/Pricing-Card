@@ -99,19 +99,32 @@ ul{
  }
 
 @media (max-width: 950px) {
-  .outer-container, .top-outer-container, .bottom-outer-container {
-    width: auto;
-    height: auto;
+ 
+  .outer-container{
+    height: 1000px;
+    width: 500px;
   }
+  
+  .top-outer-container {
+    width: 100%;
+    height: 350px;
+  }
+
+  .bottom-outer-container {
+    width: 100%;
+    height: 650px; 
+  } 
   
   .bottom-outer-container{
     flex-direction: column;
   }
   
-  .monthly-subscription, .why-us {
+  .monthly-subscription, .why-us   {
     flex-basis: 50%;
   }
 
+  
+  
   body {
     padding: 7%;
     font-size: 1.5rem;
